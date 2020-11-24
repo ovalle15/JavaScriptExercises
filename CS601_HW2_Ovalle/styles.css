@@ -93,12 +93,14 @@ body {
     color: ivory;
     margin-top: 300%;
 }
+.navbar4-nav1,
 .navbar3-nav1,
 .navbar2-nav1,
 .navbar1-nav1 {
     color: inherit;
     text-decoration: none;
 }
+
 .banner {
     position: relative;
     text-align: center;
@@ -516,19 +518,37 @@ body {
     justify-content: space-evenly; 
     position: relative;
 }
-.nav-main-section1_images {
+.nav-main-section4_images,
+.nav-main-section1_images,
+.nav-main-section2_images, 
+.nav-main-section3_images {
     list-style-type: none; 
     margin: 0;
     padding: 0; 
     display: flex;
+}   
+.nav-main-section1_images {
     text-align: start;
 }
 .nav-main-section2_images{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
     text-align: end;
+}
+.nav-main-section3_images {
+    text-align: start;
+}
+.nav-main-section4_images {
+    text-align: end;
+}
+.nav1-section4__img4 {
+    width: 44%;
+    height: 63%;
+    margin-right: 10%;
+}
+.nav1-section3__img3{
+    width: 44%;
+    height: 60%;
+    margin-top: 2%;
+    margin-left: 10%;
 }
 .nav1-section1__img1 {
     width: 44%;
@@ -541,16 +561,14 @@ body {
     height: 63%;
     margin-right: 10%;
 }
-.text-nav {
+.text-nav * {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     opacity: 1;
-}
-.main-h1 {
-    font-size: 60px;
+    font-size: 80px;
     color: ivory;
     text-align: center;
     font-family: cursive;

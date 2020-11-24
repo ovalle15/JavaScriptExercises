@@ -512,6 +512,7 @@ body {
 }
 .nav-main-section1 {
     margin-top: 100px;
+    margin-left: 10%;
     display: flex;
     flex-wrap: wrap ;
     flex-direction: row;
@@ -543,23 +544,36 @@ body {
     width: 44%;
     height: 63%;
     margin-right: 10%;
+    object-fit: cover;
+    opacity: .5;
+    border: solid 6px darkgray;
 }
 .nav1-section3__img3{
     width: 44%;
     height: 60%;
     margin-top: 2%;
     margin-left: 10%;
+    object-fit: cover;
+    opacity: .5;
+    border: solid 6px darkgray;
 }
 .nav1-section1__img1 {
     width: 44%;
     height: 60%;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 15%;
+    object-fit: cover;
+    opacity: .5;
+    border: solid 6px darkgray;
+  
 }
 .nav1-section2__img2 {
     width: 44%;
     height: 63%;
     margin-right: 10%;
+    object-fit: cover;
+    opacity: .5;
+    border: solid 6px darkgray;
 }
 .text-nav * {
     position: absolute;

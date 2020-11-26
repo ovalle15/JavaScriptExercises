@@ -1,0 +1,13 @@
+Validate both firstName and lastName to ensure:
+i. a minimum length of two (2) characters
+ii. that only alpha characters are used (A-Z and a-z)
+b. Validate facilitator and constrain the possible valid values to
+be those of the active facilitators for the course during this
+semester. For example, if we have facilitators with the following first
+names: “Laura”, “Fazil”, and “Harsh”, you would ensure that only
+these values would pass validation
+i. Laura OR Fazil OR Harsh
+c. facilitator is a text input, don’t change this into a select or any
+other type of input.
+d. The form should not be permitted to submit unless all fields pass
+validation.

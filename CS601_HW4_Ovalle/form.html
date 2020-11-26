@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Forms
+        </title>
+        <link href="styless.css" type="text/css" rel="stylesheet">
+        <meta charset="UTF-8">
+    </head>
+    <body> 
+        <script src="validation.js">
+        </script>
+        <legend>Checkout this cool form</legend>
+        <fieldset>
+            
+            <form id="form1" name="form1" action="http://bucs601.com/submit.php" method="POST" novalidate onsubmit="return ValidateForm();">
+                <ul class="personal-information">
+                    <li>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </li>
+                    <li>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </li>
+                    <li>
+                        <lable for="facilitator">Facilicator:</lable>
+                        <input type="text" id="facilitator" name="facilitator" required>
+                    </li>
+                </ul>
+                <div>
+                    <p>
+                        Questions for the faciliator: 
+                        What is your favorite ice cream?
+                    </p>
+                    <ul class="radio-buttons-selection" >
+                        <li>
+                            <input type="radio" id="choco" name="icecream_selection1" value="choco" >
+                            <label for="choco">Chocolate Chip</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="vanilla" name="icecream_selection2" value="vanilla" > 
+                            <label for="vanilla">Vanilla</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="mint" name="icecream_selection3" value="mint" >
+                            <label for="mint">Mint</label>
+                        </li>
+                    </ul>
+                    <p>
+                        What is your favorite news outlet ? 
+                        More than one selection is allowed
+                    </p>
+                    <ul class="checkbox-selection" >
+                        <li>
+                            <input type="checkbox" id="npr" name="news_selection1" value="npr">
+                            <label for="npr">National Public Radio</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="foxNews" name="news_selection2" value="foxNews">
+                            <label for="foxNews">Fox News</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="cnn" name="news_selection3" value="cnn">
+                            <label for="cnn">CNN</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="nbc" name="news_selection4" value="nbc">
+                            <label for="nbc">NBC</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class = "submit-button">
+                    <button type="submit" id="submit" value="submit">Submit</button>
+                </div>
+            </form>
+        </fieldset>
+    </body>
+</html>
+

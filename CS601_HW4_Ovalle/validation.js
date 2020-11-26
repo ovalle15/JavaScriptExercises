@@ -1,6 +1,6 @@
 
 function checkNameFaciliator(str){
-    var strLower = toLowerCase(str.value);
+    var strLower = str.value.toUpperCase();
     if (strLower.match("Fazil") || strLower.match("Laura") || strLower.match("Harsh")){
         return true;
     }
@@ -10,7 +10,6 @@ function checkNameFaciliator(str){
     }
     
 }
-
 function checkStringChar(str){
     var regex = /^[a-zA-Z]+$/
     debugger;

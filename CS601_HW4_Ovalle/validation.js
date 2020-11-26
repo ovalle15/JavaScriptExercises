@@ -1,7 +1,7 @@
 
 function checkNameFaciliator(str){
-    var strLower = str.value.toUpperCase();
-    if (strLower.match("Fazil") || strLower.match("Laura") || strLower.match("Harsh")){
+    var strLower = str.value.toLowerCase();
+    if (strLower.match("fazil") || strLower.match("laura") || strLower.match("harsh")){
         return true;
     }
     else {
@@ -25,7 +25,7 @@ function checkStringChar(str){
 }
 debugger;
 function checkLengthString(element, minlength){
-    if (element.value.length < minlength){
+    if (element.value.length < minlength || element.value === null){
         var msg = "Length needs to be greater than" + minlength;
         alert(msg)
         element.focus();
@@ -66,10 +66,5 @@ function ValidateForm() {
     } else {
         return false;
     }  
-}
-var submit = document.getElementsByClassName("submit-button")
-function postForm(){
-    submit.addEventListener("submit", ValidateForm(), false)
-  
 }
 

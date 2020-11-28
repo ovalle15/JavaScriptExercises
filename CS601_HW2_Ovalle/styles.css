@@ -1,7 +1,8 @@
 body {
     background-image: url("files/annie-spratt-6a3nqQ1YwBw-unsplash.jpg");
-    background-repeat: initial; 
-    width: 100%;
+    background-repeat: initial;
+    height: 100vh;
+    width: 100vw;
 }
 .banner {
     display: flex;
@@ -34,7 +35,7 @@ body {
     background: #86c532;
     color: #082541;
 }
-.navigation1 { 
+.navigation1 {
     height: 100%;
     width: 143px;
     position: fixed;
@@ -45,7 +46,7 @@ body {
 	background-color:rgba(0,0,0,0.5);
     transition:background 0.5s;
 }
-.navigation { 
+.navigation {
     height: 80px;
     width: 100%;
     margin-top: 20px;
@@ -61,7 +62,7 @@ body {
     padding: 0;
     font-size: 35px;
     font-family: cursive;
-    display: flex; 
+    display: flex;
     flex-direction: row;
     color: ivory;
 }
@@ -81,7 +82,7 @@ body {
 }
 .navbar1 {
     color: inherit;
-    text-decoration: none;  
+    text-decoration: none;
 }
 .navbar3 {
     color: inherit;
@@ -153,7 +154,7 @@ body {
     color: lightgoldenrodyellow;
 }
 .me {
-    border-radius: 8px; 
+    border-radius: 8px;
     width: 100%;
 }
 .banner-image {
@@ -164,8 +165,8 @@ body {
 @keyframes slideinNavItem {
     from {
         margin-left: -400vw;
-    }   
-    
+    }
+
     to {
         margin-left: 0;
     }
@@ -278,27 +279,27 @@ body {
     0% {
         opacity: 0;
     }
-    
+
     16.6% {
         opacity: 1;
     }
-    
+
     33.2% {
         opacity: 0;
     }
-    
+
     49.8% {
         opacity: 0;
     }
-    
+
     66.4% {
         opacity: 0;
     }
-    
+
     83% {
         opacity: 0;
     }
-    
+
     100% {
         opacity: 0;
     }
@@ -336,7 +337,7 @@ body {
 }
 /* Fav Food Webpage */
 
-.section2_ {   
+.section2_ {
     text-align: center;
     margin-left: 30px;
     margin-right: 20px;
@@ -350,7 +351,7 @@ body {
     display: flex;
     flex-wrap: wrap ;
     flex-direction: row;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
     position: relative
 }
 .section2_item_images {
@@ -366,7 +367,7 @@ body {
     flex-basis: auto;
     align-self: start;
     border-radius: 8px;
-    object-fit: contain; 
+    object-fit: contain;
  }
 .section2_item5__image5 {
     flex-grow: inherit;
@@ -374,14 +375,14 @@ body {
     width: 90%;
     align-self: start;
     border-radius: 8px;
-    object-fit: contain; 
+    object-fit: contain;
 }
 .section2_item4__image4 {
     width: 92%;
     flex-grow: inherit;
     flex-basis: auto;
     align-self: start;
-    border-radius: 8px; 
+    border-radius: 8px;
     object-fit: contain;
 }
 .section2_item3__image3 {
@@ -389,7 +390,7 @@ body {
     flex-grow: inherit;
     flex-basis: auto;
     align-self: start;
-    border-radius: 8px; 
+    border-radius: 8px;
     object-fit: contain;
 }
 .section2_item2__image2 {
@@ -397,7 +398,7 @@ body {
     flex-grow: inherit;
     flex-basis: auto;
     align-self: start;
-    border-radius: 8px; 
+    border-radius: 8px;
     object-fit: contain;
 }
 .section2_item1__image1 {
@@ -406,7 +407,7 @@ body {
     flex-basis: auto;
     align-self: start;
     border-radius: 8px;
-    object-fit: contain; 
+    object-fit: contain;
 }
 .section2__item1 ul li:hover{
     transform: scale(1.2);
@@ -455,36 +456,36 @@ body {
     flex-grow: inherit;
     flex-basis: auto;
     align-self: start;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 .flex-galleria-3__image2 {
     width: 50%;
     flex-grow: inherit;
     flex-basis: auto;
     align-self: start;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 .flex-galleria-3__image3 {
     width: 50%;
     flex-grow: inherit;
     flex-basis: auto;
     align-self: start;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 .flex-galleria-3__image4 {
     width: 50%;
     flex-grow: inherit;
     flex-basis: auto;
     align-self: start;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 .flex-galleria-3 .caption{
     font-size: 15px;
     color: blanchedalmond;
     font-family: cursive;
-    
+
 }
-.index-heading { 
+.index-heading {
     font-size: 70px;
     color: ivory;
     text-align: right;
@@ -503,18 +504,18 @@ body {
     display: flex;
     flex-wrap: wrap ;
     flex-direction: row;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
     position: relative;
 }
 .nav-main-section4_images,
 .nav-main-section1_images,
-.nav-main-section2_images, 
+.nav-main-section2_images,
 .nav-main-section3_images {
-    list-style-type: none; 
+    list-style-type: none;
     margin: 0;
-    padding: 0; 
+    padding: 0;
     display: flex;
-}   
+}
 .nav-main-section1_images {
     text-align: start;
 }
@@ -552,7 +553,7 @@ body {
     object-fit: cover;
     opacity: .7;
     border: solid 6px darkgray;
-  
+
 }
 .nav1-section2__img2 {
     width: 44%;
@@ -585,7 +586,7 @@ footer {
 }
 .bio-h1__projects {
     text-align: center;
-    margin-top: 26%;
+    /* margin-top: 26%; */
     bottom: 0;
     color: ivory;
     font-size: 55px;
@@ -596,4 +597,9 @@ footer {
     text-align: center;
     margin-left: 10%;
     color: white;
+}
+
+.section1_ {
+    margin-top: 120px;
+    height: 100%;
 }

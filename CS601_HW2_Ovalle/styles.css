@@ -4,14 +4,7 @@ body {
     width: 100%;
 }
 .banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     position: relative;
-    height: 100%;
-    color: #eee;
-    z-index: -1;
     text-align: center;
   }
 .section1_0 {
@@ -104,6 +97,7 @@ body {
     animation: slideinNavItem;
     animation-duration: 1s;
 }
+.navbar-fav__nav4,
 .navbar-fav__nav3,
 .navbar-fav__nav2,
 .navbar-fav__nav1 {

@@ -1,0 +1,84 @@
+/* ===========================
+    Generic
+=========================== */
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+body {
+    background-image: url("back-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: auto;
+}
+form {
+    width: 500px;
+    margin: 15px auto;
+}
+div {
+    margin-bottom: 20px;
+}
+fieldset {
+    background:whitesmoke;
+    border: 2px solid rgb(118, 118, 121);
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    border-radius: 20px;
+}
+legend {
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+    font-size: 25px;
+    text-align: center;
+}
+small {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: red;
+    display: flex;
+    padding: .3em;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ===========================
+    classes
+=========================== */
+
+.personal-information,
+.checkbox-selection,
+.radio-buttons-selection {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: table-row;
+    width: 52%;
+    list-style-type: none;
+}
+
+.list_input_3,
+.list_input_2,
+.list_input_1 {
+    display: flex;
+    padding: .2em;
+}
+.list_input_3.success input,
+.list_input_2.success input,
+.list_input_1.success input {
+    border: 2px solid rgb(18, 199, 18);
+}
+.list_input_3.error input,
+.list_input_2.error input,
+.list_input_1.error input {
+    border: 2px solid rgb(170, 21, 21);
+}
+.personal-information input {
+    width: 135px;
+    height: 21px;
+}

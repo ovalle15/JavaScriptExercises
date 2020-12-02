@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Forms
+        </title>
+        <link>
+        <link href="styless_form.css" type="text/css" rel="stylesheet">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <nav class= "navigation">
+            <ul class='navbar'>
+                <li class="navbar-fav-item1">
+                    <a class="navbar-fav__nav1" href="index.html">Main Page</a>
+                    <div class="underline"></div>
+                </li>
+                <li class="navbar-fav-item2">
+                    <a class="navbar-fav__nav2" href="Bio.html">Biography</a>
+                    <div class="underline"></div>
+                </li>
+                <li class="navbar-fav-item3">
+                    <a class="navbar-fav__nav3" href="Projects.html">Projects</a>
+                    <div class="underline"></div>
+                </li>
+            </ul>
+        </nav>
+        <h1>Checkout this cool form</h1>
+        <fieldset>
+            <form id="form1" name="form1" action="https://bucs601.com/submit.php" method="POST">
+                <div class="personal-information">
+                    <div class="list_input_1">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                        <small></small>
+                    </div>
+                    <div class="list_input_2">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                        <small></small>
+                    </div>
+                    <div class="list_input_3">
+                        <label for="facilitator">Facilitator:</label>
+                        <input type="text" id="facilitator" name="facilitator" required>
+                        <small></small>
+                    </div>
+                </div>
+                <div>
+                    <p>
+                        Questions for the faciliator:
+                        <br>
+                        <br>
+                        What is your favorite ice cream?
+                    </p>
+                    <div class="radio-buttons-selection">
+                        <input type="radio" id="choco" name="icecream_selection" value="choco" >
+                        <label for="choco">Chocolate Chip</label>
+                        <br>
+                        <input type="radio" id="vanilla" name="icecream_selection" value="vanilla">
+                        <label for="vanilla">Vanilla</label>
+                        <br>
+                        <input type="radio" id="mint" name="icecream_selection" value="mint" >
+                        <label for="mint">Mint</label>
+                        <small></small>
+                    </div>
+                    <p>
+                       Favorite news outlet (more than one selection is allowed)
+                    </p>
+                    <div class="checkbox-selection">
+                        <input type="checkbox" id="npr" name="news_selection1" value="npr">
+                        <label for="npr">National Public Radio</label>
+                        <br>
+                        <input type="checkbox" id="foxNews" name="news_selection2" value="foxNews">
+                        <label for="foxNews">Fox News</label>
+                        <br>
+                        <input type="checkbox" id="cnn" name="news_selection3" value="cnn">
+                        <label for="cnn">CNN</label>
+                        <br>
+                        <input type="checkbox" id="nbc" name="news_selection4" value="nbc">
+                        <label for="nbc">NBC</label>
+                        <small></small>
+                    </div>
+                </div>
+                <button type="submit" id="submit" value="submit">Submit</button>
+            </form>
+        </fieldset>
+        <script src="finalValidation.js">
+        </script>
+    </body>
+</html>
+
